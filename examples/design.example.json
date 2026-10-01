@@ -1,0 +1,25 @@
+{
+  "name": "catalyst-x-temperature-yield",
+  "factorA": { "name": "Catalyst", "levels": ["C1", "C2"] },
+  "factorB": { "name": "Temperature", "levels": ["T1", "T2", "T3"] },
+  "observations": [
+    { "level_a": "C1", "level_b": "T1", "replicate": 1, "value": 54.2 },
+    { "level_a": "C1", "level_b": "T1", "replicate": 2, "value": 55.0 },
+    { "level_a": "C1", "level_b": "T1", "replicate": 3, "value": 53.6 },
+    { "level_a": "C1", "level_b": "T2", "replicate": 1, "value": 61.1 },
+    { "level_a": "C1", "level_b": "T2", "replicate": 2, "value": 60.4 },
+    { "level_a": "C1", "level_b": "T2", "replicate": 3, "value": 61.9 },
+    { "level_a": "C1", "level_b": "T3", "replicate": 1, "value": 66.0 },
+    { "level_a": "C1", "level_b": "T3", "replicate": 2, "value": 65.2 },
+    { "level_a": "C1", "level_b": "T3", "replicate": 3, "value": 66.7 },
+    { "level_a": "C2", "level_b": "T1", "replicate": 1, "value": 58.3 },
+    { "level_a": "C2", "level_b": "T1", "replicate": 2, "value": 59.1 },
+    { "level_a": "C2", "level_b": "T1", "replicate": 3, "value": 57.8 },
+    { "level_a": "C2", "level_b": "T2", "replicate": 1, "value": 63.7 },
+    { "level_a": "C2", "level_b": "T2", "replicate": 2, "value": 64.5 },
+    { "level_a": "C2", "level_b": "T2", "replicate": 3, "value": 63.2 },
+    { "level_a": "C2", "level_b": "T3", "replicate": 1, "value": 68.1 },
+    { "level_a": "C2", "level_b": "T3", "replicate": 2, "value": 69.0 },
+    { "level_a": "C2", "level_b": "T3", "replicate": 3, "value": 67.6 }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "two-way-anova-backend",
+  "version": "1.0.0",
+  "description": "Local-only two-way fixed-effects balanced factorial ANOVA backend (API + CLI + synthetic data + tests).",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types --no-warnings src/server.ts",
+    "cli": "node --experimental-strip-types --no-warnings src/cli.ts",
+    "test": "node --experimental-strip-types --no-warnings --test tests/*.test.ts",
+    "demo": "node --experimental-strip-types --no-warnings scripts/demo.ts",
+    "stop": "node --experimental-strip-types --no-warnings scripts/stop.ts",
+    "clean": "node --experimental-strip-types --no-warnings scripts/clean.ts"
+  },
+  "license": "MIT"
+}
