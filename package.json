@@ -1,0 +1,24 @@
+{
+  "name": "twoway-anova-backend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/server.ts",
+    "cli": "node src/cli.ts",
+    "demo": "node scripts/demo.ts",
+    "test": "node --test --experimental-strip-types test/",
+    "typecheck": "tsc -p tsconfig.json",
+    "stop": "node scripts/stop.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
+  },
+  "bin": {
+    "anova": "src/cli.ts"
+  }
+}

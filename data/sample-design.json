@@ -1,0 +1,21 @@
+{
+  "name": "catalyst-temperature",
+  "factorA": "Catalyst",
+  "factorB": "Temperature",
+  "aLevels": ["C1", "C2"],
+  "bLevels": ["T1", "T2"],
+  "observations": [
+    { "aLevel": "C1", "bLevel": "T1", "value": 5 },
+    { "aLevel": "C1", "bLevel": "T1", "value": 6 },
+    { "aLevel": "C1", "bLevel": "T1", "value": 7 },
+    { "aLevel": "C1", "bLevel": "T2", "value": 7 },
+    { "aLevel": "C1", "bLevel": "T2", "value": 8 },
+    { "aLevel": "C1", "bLevel": "T2", "value": 9 },
+    { "aLevel": "C2", "bLevel": "T1", "value": 9 },
+    { "aLevel": "C2", "bLevel": "T1", "value": 10 },
+    { "aLevel": "C2", "bLevel": "T1", "value": 11 },
+    { "aLevel": "C2", "bLevel": "T2", "value": 11 },
+    { "aLevel": "C2", "bLevel": "T2", "value": 12 },
+    { "aLevel": "C2", "bLevel": "T2", "value": 13 }
+  ]
+}

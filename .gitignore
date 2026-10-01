@@ -1,0 +1,8 @@
+node_modules/
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/server.json
+data/demo-export.json
+data/anova-table-*.json
+*.log
